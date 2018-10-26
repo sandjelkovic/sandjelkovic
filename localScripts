@@ -1,0 +1,7 @@
+
+sudo apt install ruby
+sudo apt install ruby-dev
+sudo apt install zlibc zlib1g zlib1g-dev
+
+bundle install
+bundle exec jekyll serve
