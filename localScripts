@@ -1,0 +1,9 @@
+
+sudo apt install ruby
+sudo apt install ruby-dev
+sudo apt install zlibc zlib1g zlib1g-dev
+
+bundle install
+
+chmod +x localServe.sh
+bundle exec jekyll serve
